@@ -7,9 +7,7 @@ For any real numbers \( x \) and \( y \), the following holds:
 \]
 This also extends to vectors in Euclidean space:  
 For vectors \( \mathbf{u} \) and \( \mathbf{v} \) in \( \mathbb{R}^n \), the inequality holds:
-\[
-\|\mathbf{u} + \mathbf{v}\| \leq \|\mathbf{u}\| + \|\mathbf{v}\|
-\]
+$$\|\mathbf{u} + \mathbf{v}\| \leq \|\mathbf{u}\| + \|\mathbf{v}\|$$
 
 **Proof Sketch:**  
 - Consider the properties of the absolute value function and norms.  
