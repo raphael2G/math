@@ -9,6 +9,10 @@ Here is a collection of math problems, categorized by topic. Each problem links 
 - **[Geometric Median Problem](./problems/problem-geometric-median.md)**  
 Let $P_1, P_2, \dots, P_n$ be points on a line, not necessarily distinct. Which point(s) $P$ on the line minimize the sum of distances $\sum_{i=1}^{n} |P - P_i|$?
 
+- **[Geometric Mean Problem](./problems/problem-geometric-mean.md)**  
+  Minimize the sum of squared distances between points on a plane.
+
+
 
 ## 2. Theorems
 
