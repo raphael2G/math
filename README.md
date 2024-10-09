@@ -18,7 +18,7 @@ Let $P_1, P_2, \dots, P_n$ be points on a line, not necessarily distinct. Which 
 
 A collection of theorems with a brief description of their key insights. Click the links to view the full theorem and proof.
 
-- **[Triangle Inequality](./theorems/triangle-inequality.md)**  
+- **[Triangle Inequality](./theorems/TriangleInequality.md)**  
   States that $|x + y| \leq |x| + |y|$ for real numbers $x$ and $y$.
 
 - **[Fermat's Little Theorem](./theorems/fermats-little-theorem.md)**  
