@@ -6,14 +6,9 @@ This repository contains collections of problems, theorems, inequalities, and pr
 
 Here is a collection of math problems, categorized by topic. Each problem links to a detailed solution or analysis.
 
-- **[Problem 1: Find the maximum value of a function](./problems/problem-1.md)**  
-  Involves using derivatives and critical points to find the maximum.
+- **[Geometric Median Problem](./problems/problem-geometric-median.md)**  
+Let $P_1, P_2, \dots, P_n$ be points on a line, not necessarily distinct. Which point(s) $P$ on the line minimize the sum of distances $\sum_{i=1}^{n} |P - P_i|$?
 
-- **[Problem 2: Prove a divisibility result](./problems/problem-2.md)**  
-  Uses number theory and properties of primes.
-
-- **[Problem 3: Inequality proof for geometric mean](./problems/problem-3.md)**  
-  Relies on applying the Arithmetic-Geometric Mean Inequality.
 
 ## 2. Theorems
 
