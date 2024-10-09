@@ -6,14 +6,9 @@ This repository contains collections of problems, theorems, inequalities, and pr
 
 Here is a collection of math problems, categorized by topic. Each problem links to a detailed solution or analysis.
 
-- **[Problem 1: Find the maximum value of a function](./problems/problem-1.md)**  
-  Involves using derivatives and critical points to find the maximum.
+- **[Geometric Median Problem](./problems/problem-geometric-median.md)**  
+  Minimize the sum of distances for a set of points on a line.
 
-- **[Problem 2: Prove a divisibility result](./problems/problem-2.md)**  
-  Uses number theory and properties of primes.
-
-- **[Problem 3: Inequality proof for geometric mean](./problems/problem-3.md)**  
-  Relies on applying the Arithmetic-Geometric Mean Inequality.
 
 ## 2. Theorems
 
