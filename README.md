@@ -26,7 +26,7 @@ Solve a problem using the AM-HM inequality
 
 A collection of theorems with a brief description of their key insights. Click the links to view the full theorem and proof.
 
-### Topic: Inequalities
+
 ### Topic: Inequalities
 - **[Triangle Inequality](./Theorems/TriangleInequality.md)**  
   States that $|x + y| \leq |x| + |y|$ for real numbers $x$ and $y$.
