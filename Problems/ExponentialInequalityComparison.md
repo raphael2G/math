@@ -87,8 +87,6 @@ $$
 In other words, $\sqrt{n+1}^{\sqrt{n}} > \sqrt{n}^{\sqrt{n+1}}$ for $n > 8$.
 
 ### Citations:
-- **[Proof Strategy: Logarithmic Transformation](./ProofStrategies/LogarithmicTransformation.md)**  
-  We used logarithmic transformations to simplify the comparison of exponents.
   
-- **[Theorem: Monotonicity of $f(x) = \frac{\log(x)}{x}$](./Theorems/MonotonicityOfLog.md)**  
+- **[Theorem: Monotonicity of $f(x) = \frac{\log(x)}{x}$](../Theorems/Monotonicity.md)**  
   The monotonicity of $f(x) = \frac{\log(x)}{x}$ was critical to completing the proof.
