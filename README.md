@@ -6,7 +6,7 @@ This repository contains collections of problems, theorems, inequalities, and pr
 
 Here is a collection of math problems, categorized by topic. Each problem links to a detailed solution or analysis.
 
-- **[Geometric Median Problem](./Problems/GeometricMedian.md)**  
+- **[Geometric Median Problem](./Problems/GoemetricMedian.md)**  
 Let $P_1, P_2, \dots, P_n$ be points on a line, not necessarily distinct. Which point(s) $P$ on the line minimize the sum of distances $\sum_{i=1}^{n} |P - P_i|$?
 
 - **[Geometric Mean Problem](./Problems/GeometricMean.md)**  
