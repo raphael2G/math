@@ -6,29 +6,34 @@ Let $P_1, P_2, \dots, P_n$ be points on a line, not necessarily distinct. Which 
 
 ### Solution Overview:
 
-We want to minimize the function $f(P)$ that represents the sum of distances between the point $P$ and the given points $P_1, P_2, \dots, P_n$. This can be written as:
+This function is inherently a minimization problem. Therefore, let's create some function which we want to minimize. 
 
 $$
 f(P) = \sum_{i=1}^{n} |P - P_i|
 $$
 
-To solve this, we use the following steps:
+As with all minimizations probelms, let's look for critical points. 
 
-1. **Split the Sum to Handle the Absolute Values:**
-   Break the sum into two parts:
-   - The part where $P \geq P_i$ for some points.
-   - The part where $P < P_i$ for the remaining points.
+$$
+f(P) = \sum_{i=1}^{k} P-P_i + \sum_{i=k+1}^{n} P_i - P
+$$
 
-   We can define $f(P)$ more clearly by considering the contribution of points to the left and right of $P$.
+where $k$ is the number of points to the left of P. 
 
-2. **Find the Derivative:**
-   Consider the derivative of $f(P)$ with respect to $P$. Since the function involves absolute values, the derivative will change based on whether $P$ is to the left or right of each $P_i$. We examine where the derivative equals zero:
-   
-   - For $P$ less than a given $P_i$, the derivative is $-1$.
-   - For $P$ greater than $P_i$, the derivative is $+1$.
+Notice then that 
 
-3. **Condition for Minimization:**
-   The derivative $f'(P)$ will equal zero when the number of points on the left of $P$ equals the number of points on the right of $P$. This happens when $P$ is the **median** of the points. Therefore, the value of $P$ that minimizes $f(P)$ is the median of the set of points $P_1, P_2, \dots, P_n$.
+$$f'(P) = k - (n-k)$$
+
+It is now clear that the critical points of $f$ will be when there are an equal number of points on the left and right of $P$. 
+
+Therefore, when $n$ is odd, there is a single point at which $f$ is minimized, but when $n$ is even, any point in between the $k$th and $k+1$th point for $n = 2k$ will minimize $f$. 
+
+Notice that this is because $f$ is convex we can rewrite $f$ in terms of the number of points on the left of $P$, so $$f'(k) = k - (n - k) = 2k - n$$
+
+meaning $$f''(k) = 2 > 0$$ 
+
+
+
 
 ### Conclusion:
 

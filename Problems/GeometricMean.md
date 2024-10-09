@@ -42,6 +42,8 @@ We want to minimize the sum of the squared Euclidean distances between a point $
 
    These equations show that the point $P = (x, y)$ that minimizes the sum of squared distances is the **centroid** of the points $P_1, P_2, \dots, P_n$.
 
+   Note, this is only because $f$ is convex which can be seen by looking at the second derivative of $f$ w.r.t. $x$ and $y$. 
+
 3. **Conclusion**:
    The point $P$ that minimizes the sum of squared distances is the centroid, or **mean** of the points. Thus, the point that minimizes the squared distances is:
 
