@@ -7,7 +7,7 @@ This repository contains collections of problems, theorems, inequalities, and pr
 Here is a collection of math problems, categorized by topic. Each problem links to a detailed solution or analysis.
 
 ### Topic: Inequalities
-- **[Geometric Median Problem](./Problems/GeometricMedian.md)**  
+  - **[Geometric Median Problem](./Problems/GeometricMedian.md)**  
   Let $P_1, P_2, \dots, P_n$ be points on a line, not necessarily distinct. Which point(s) $P$ on the line minimize the sum of distances $\sum_{i=1}^{n} |P - P_i|$?
 
 - **[Geometric Mean Problem](./Problems/GeometricMean.md)**  
@@ -19,6 +19,17 @@ Solve a problem using the AM-HM inequality
 - **[Exponential Inequality Comparison](./Problems/ExponentialInequalityComparison.md)**  
   Given $n > 8$, compare $a^b$ and $b^a$ for $a = \sqrt{n}$ and $b = \sqrt{n+1}$.
 
+
+### Topic: Convergence
+
+  - **[Basic Convergence Problem](./Problems/Convergence/ConvergentSum.md)**
+  Given $\sum^{\infin}_{i=1}a_i^2$ and $\sum^{\infin}_{i=1}b_i^2$ both converge, show $\sum^{\infin}_{i=1}a_ib_i$ converges
+
+  - **[Showing the Maximum Growth Rate of Convergent Sums](./Problems/Convergence/ConvergetSumsMaxGrowthRate.md)**  
+  Given $a_1, a_2, \dots$ are positive integers such that $\sum \frac{1}{a_i}$ converges, prove that $\lim_{n \to \infty} \frac{b_n}{n} = 0$ where $b_n$ denotes the number of $i$ such that $a_i \leq n$.
+
+  - **[Convergence of Spaced Complex Sums](./Problems/Convergence/ConvergenceOfSpacedComplexSum.md)**  
+Let $z_1, z_2, z_3, \ldots$ be non-zero complex numbers with the property that $|z_i - z_j| > 1 \ \forall i, j$. Prove that: $\sum_{i=1}^{\infty} \frac{1}{z_i^3}$ converges.
 
 
 
