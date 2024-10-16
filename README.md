@@ -31,9 +31,13 @@ Solve a problem using the AM-HM inequality
   - **[Convergence of Spaced Complex Sums](./Problems/Convergence/ConvergenceOfSpacedComplexSum.md)**  
 Let $z_1, z_2, z_3, \ldots$ be non-zero complex numbers with the property that $|z_i - z_j| > 1 \ \forall i, j$. Prove that: $\sum_{i=1}^{\infty} \frac{1}{z_i^3}$ converges.
 
+## 2. Bid Ideas
+A collection of big ideas which help guide ways to think about problems in certain topics. 
+
+- **[Convergence](./BigIdeas/Convergence.md)**
 
 
-## 2. Theorems
+## 3. Theorems
 
 A collection of theorems with a brief description of their key insights. Click the links to view the full theorem and proof.
 
@@ -47,8 +51,7 @@ A collection of theorems with a brief description of their key insights. Click t
 
 
 
-## 3. Proof Strategies
-
+## 4. Proof Strategies
 Common proof strategies, with a brief description of when they are used. Click the links to see examples of their use in problems.
 
 
