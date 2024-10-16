@@ -22,8 +22,9 @@ Solve a problem using the AM-HM inequality
 
 ### Topic: Convergence
 
-  - **[Basic Convergence Problem](./Problems/Convergence/ConvergentSum.md)**
-  Given $\sum^{\infin}_{i=1}a_i^2$ and $\sum^{\infin}_{i=1}b_i^2$ both converge, show $\sum^{\infin}_{i=1}a_ib_i$ converges
+  - **[Basic Convergence Problem](./Problems/Convergence/ConvergentSum.md)** 
+
+    Given $\sum_{i=1}^{\infty}a_i^2$ and $\sum_{i=1}^{\infty}b_i^2$ both converge show $\sum_{i=1}^{\infty}a_ib_i$ converges
 
   - **[Showing the Maximum Growth Rate of Convergent Sums](./Problems/Convergence/ConvergetSumsMaxGrowthRate.md)**  
   Given $a_1, a_2, \dots$ are positive integers such that $\sum \frac{1}{a_i}$ converges, prove that $\lim_{n \to \infty} \frac{b_n}{n} = 0$ where $b_n$ denotes the number of $i$ such that $a_i \leq n$.
